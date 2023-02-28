@@ -17,7 +17,7 @@ class Song:
         return self.genre
 
     def get_artist(self):
-        return self.artist
+        return self.record.artist
 
     def get_record(self):
         return self.record
